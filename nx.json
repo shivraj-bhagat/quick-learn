@@ -36,17 +36,10 @@
         "ciTargetName": "e2e-ci"
       }
     },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
     {
       "plugin": "@nx/jest/plugin",
-      "options": {
-        "targetName": "test"
-      },
+      "options": { "targetName": "test" },
       "exclude": ["apps/quick-learn-backend-e2e/**/*"]
     },
     {
@@ -59,12 +52,7 @@
     }
   ],
   "generators": {
-    "@nx/next": {
-      "application": {
-        "style": "tailwind",
-        "linter": "eslint"
-      }
-    }
+    "@nx/next": { "application": { "style": "tailwind", "linter": "eslint" } }
   },
   "targetDefaults": {
     "@nx/js:tsc": {
@@ -72,5 +60,6 @@
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
     }
-  }
+  },
+  "nxCloudAccessToken": "ZmVmMTZmZGQtZTU4NS00MjE2LWE1NGYtYjI1MDIyODhmOGVkfHJlYWQtd3JpdGU="
 }
