@@ -61,5 +61,6 @@
       "inputs": ["production", "^production"]
     }
   },
-  "nxCloudAccessToken": "NjMwMGZlNDctYzMzYi00ZmVhLTk3MDYtYzY2NWFhNGExMzVhfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "NjMwMGZlNDctYzMzYi00ZmVhLTk3MDYtYzY2NWFhNGExMzVhfHJlYWQtd3JpdGU=",
+  "nxCloudId": "67c59e0797dc2d8c76e2d894"
 }
