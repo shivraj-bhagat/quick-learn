@@ -24,6 +24,7 @@ import {
   LeaderboardModule,
 } from './routes';
 import { FileModule } from './file/file.module';
+import { WorkflowModule } from './workflow/workflow.module';
 import fileConfig from './file/config/file.config';
 import authConfig from './routes/auth/config/auth.config';
 
@@ -44,6 +45,7 @@ import authConfig from './routes/auth/config/auth.config';
     CronjobModule,
     MetadataModule,
     FileModule,
+    WorkflowModule,
     UsersModule,
     AuthModule,
     TeamModule,

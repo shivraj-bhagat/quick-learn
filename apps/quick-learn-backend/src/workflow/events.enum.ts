@@ -1,0 +1,14 @@
+export enum TaskLifecycleEvent {
+  TASK_STARTED = 'TASK_STARTED',
+  TASK_COMPLETED = 'TASK_COMPLETED',
+  TASK_FAILED = 'TASK_FAILED',
+  TASK_RETRY = 'TASK_RETRY',
+}
+
+export enum TaskStatus {
+  PENDING = 'PENDING',
+  RUNNING = 'RUNNING',
+  COMPLETED = 'COMPLETED',
+  FAILED = 'FAILED',
+  RETRYING = 'RETRYING',
+}
